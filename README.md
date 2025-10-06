@@ -11,7 +11,7 @@ A curated collection of AI and machine learning projects exploring practical app
 3. [Quantum Tutor: Voice Assistant for Visually Impaired Learners](#3-quantum-tutor-voice-assistant-for-visually-impaired-learners)  
 4. [Quantum Computing Tutor with GPT & Claude](#4-quantum-computing-tutor-with-gpt--claude)  
 5. [OpenAI vs Ollama Streaming](#5-openai-vs-ollama-streaming)
-6. [Quantum Synthetic Data Generator] (#6-quantum-synthetic-data-generator)
+6. [Quantum Synthetic Data Generator](#6-quantum-synthetic-data-generator)
 
 ---
 
