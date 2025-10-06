@@ -10,7 +10,8 @@ A curated collection of AI and machine learning projects exploring practical app
 2. [Website Summary with Gradio](#2-website-summary-with-gradio)  
 3. [Quantum Tutor: Voice Assistant for Visually Impaired Learners](#3-quantum-tutor-voice-assistant-for-visually-impaired-learners)  
 4. [Quantum Computing Tutor with GPT & Claude](#4-quantum-computing-tutor-with-gpt--claude)  
-5. [OpenAI vs Ollama Streaming](#5-openai-vs-ollama-streaming)  
+5. [OpenAI vs Ollama Streaming](#5-openai-vs-ollama-streaming)
+6. [Quantum Synthetic Data Generator] (#6-quantum-synthetic-data-generator)
 
 ---
 
@@ -117,5 +118,27 @@ This notebook demonstrates **real-time streaming** of LLM responses from OpenAI 
 
 **Purpose:**  
 Illustrates the technical and UX differences between streaming cloud and local AI responses, emphasizing responsiveness in AI applications.  
+
+---
+## 6. Quantum Synthetic Data Generator
+
+**Project Overview:**  
+A synthetic data generator powered by open-source LLMs that creates realistic datasets for quantum computing use cases, including simulated circuits, experiment logs, and research abstracts. Users can interactively generate JSON or CSV datasets for experimentation, testing, or educational purposes.
+
+**Key Features:**  
+- Gradio-based interactive interface for dataset generation  
+- Configurable dataset type and record counts (e.g., Quantum Circuits, Experiment Logs, Research Abstracts)  
+- Downloadable JSON or CSV outputs ready for ML pipelines  
+- Quantum-themed prompts for realistic and coherent outputs  
+- Handles edge cases and extra text from model outputs, ensuring robust JSON parsing  
+
+**Tech Stack:**  
+- **Model:** Meta-Llama-3.1-8B-Instruct  
+- **Interface:** Gradio  
+- **Language:** Python  
+- **Libraries:** Transformers, Hugging Face, Torch  
+
+**Purpose:**  
+Expands the Quantum AI learning ecosystem with synthetic datasets for experimentation, model testing, and educational content creation.
 
 ---
