@@ -12,6 +12,7 @@ A curated collection of AI and machine learning projects exploring practical app
 4. [Quantum Computing Tutor with GPT & Claude](#4-quantum-computing-tutor-with-gpt--claude)  
 5. [OpenAI vs Ollama Streaming](#5-openai-vs-ollama-streaming)
 6. [Quantum Synthetic Data Generator](#6-quantum-synthetic-data-generator)
+7. [LLM Benchmark: Generating and Explaining Quantum Code](#7-llm-benchmark-generating-and-explaining-quantum-code)
 
 ---
 
@@ -142,3 +143,27 @@ A synthetic data generator powered by open-source LLMs that creates realistic da
 Expands the Quantum AI learning ecosystem with synthetic datasets for experimentation, model testing, and educational content creation.
 
 ---
+
+# Project Overview
+
+This project benchmarks **AI models for quantum computing code generation**, specifically **OpenAI’s GPT-4o** and **Anthropic’s Claude-3.5-sonnet-20240620**. The models are prompted to generate quantum computing code with beginner-friendly explanations. The project measures performance metrics such as **latency, token usage, and throughput**, and presents results in structured JSON and Markdown tables for easy comparison.
+
+## Key Features
+
+- Generates **quantum computing code with explanations** for educational purposes  
+- Measures **inference performance**: latency, total tokens, tokens per second, and prompt vs completion tokens  
+- Produces **structured JSON output** for analysis or visualization  
+- Displays benchmarking results in **Markdown tables** for readability  
+
+## Tech Stack
+
+- **Models**: GPT-4o, Claude-3.5-sonnet-20240620  
+- **Language**: Python  
+- **Libraries**: OpenAI, Anthropic, time, json, IPython.display, tabulate  
+
+## Purpose
+
+Compare LLM performance across models, highlighting latency, token usage, and throughput in a structured benchmark.
+
+---
+
