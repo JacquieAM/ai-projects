@@ -144,25 +144,23 @@ Expands the Quantum AI learning ecosystem with synthetic datasets for experiment
 
 ---
 
-# Project Overview
+## 7. LLM Benchmark: Generating and Explaining Quantum Code
 
+**Project Overview:**
 This project benchmarks **AI models for quantum computing code generation**, specifically **OpenAI’s GPT-4o** and **Anthropic’s Claude-3.5-sonnet-20240620**. The models are prompted to generate quantum computing code with beginner-friendly explanations. The project measures performance metrics such as **latency, token usage, and throughput**, and presents results in structured JSON and Markdown tables for easy comparison.
 
-## Key Features
-
+**Key Features:**
 - Generates **quantum computing code with explanations** for educational purposes  
 - Measures **inference performance**: latency, total tokens, tokens per second, and prompt vs completion tokens  
 - Produces **structured JSON output** for analysis or visualization  
 - Displays benchmarking results in **Markdown tables** for readability  
 
-## Tech Stack
-
+**Tech Stack:**
 - **Models**: GPT-4o, Claude-3.5-sonnet-20240620  
 - **Language**: Python  
 - **Libraries**: OpenAI, Anthropic, time, json, IPython.display, tabulate  
 
-## Purpose
-
+**Purpose:**  
 Compare LLM performance across models, highlighting latency, token usage, and throughput in a structured benchmark.
 
 ---
