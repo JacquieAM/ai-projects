@@ -13,6 +13,7 @@ A curated collection of AI and machine learning projects exploring practical app
 5. [OpenAI vs Ollama Streaming](#5-openai-vs-ollama-streaming)
 6. [Quantum Synthetic Data Generator](#6-quantum-synthetic-data-generator)
 7. [LLM Benchmark: Generating and Explaining Quantum Code](#7-llm-benchmark-generating-and-explaining-quantum-code)
+8. [Retrieval-Augmented Generation (RAG) Chatbot for Quantum Computing](#8-retrieval-augmented-generation-chatbot-for-quantum-computing)
 
 ---
 
@@ -147,13 +148,13 @@ Expands the Quantum AI learning ecosystem with synthetic datasets for experiment
 ## 7. LLM Benchmark: Generating and Explaining Quantum Code
 
 **Project Overview:**
-This project benchmarks **AI models for quantum computing code generation**, specifically **OpenAI’s GPT-4o** and **Anthropic’s Claude-3.5-sonnet-20240620**. The models are prompted to generate quantum computing code with beginner-friendly explanations. The project measures performance metrics such as **latency, token usage, and throughput**, and presents results in structured JSON and Markdown tables for easy comparison.
+This project benchmarks AI models for quantum computing code generation, specifically OpenAI’s GPT-4o and Anthropic’s Claude-3.5-sonnet-20240620. The models are prompted to generate quantum computing code with beginner-friendly explanations. The project measures performance metrics such as latency, token usage, and throughput, and presents results in structured JSON and Markdown tables for easy comparison.
 
 **Key Features:**
-- Generates **quantum computing code with explanations** for educational purposes  
-- Measures **inference performance**: latency, total tokens, tokens per second, and prompt vs completion tokens  
-- Produces **structured JSON output** for analysis or visualization  
-- Displays benchmarking results in **Markdown tables** for readability  
+- Generates quantum computing code with explanations for educational purposes  
+- Measures inference performance: latency, total tokens, tokens per second, and prompt vs completion tokens  
+- Produces structured JSON output for analysis or visualization  
+- Displays benchmarking results in Markdown tables for readability  
 
 **Tech Stack:**
 - **Models**: GPT-4o, Claude-3.5-sonnet-20240620  
@@ -165,3 +166,25 @@ Compare LLM performance across models, highlighting latency, token usage, and th
 
 ---
 
+## 8. Retrieval-Augmented Generation (RAG) Chatbot for Quantum Computing
+
+**Project Overview**
+This project builds a Retrieval-Augmented Generation (RAG) system integrating LangChain, ChromaDB, and an OpenAI LLM to create a quantum computing chatbot. It loads a quantum computing dataset from Hugging Face, processes instruction–output pairs into document chunks, and generates embeddings for semantic retrieval and visualization.
+
+**Key Features**
+- Uses a quantum computing dataset from Hugging Face (Tonmoy-000/quantumcomputingecosystem_dataset)
+- Creates embeddings using Hugging Face Sentence Transformers
+- Stores and retrieves vector data with ChromaDB
+- Visualizes embeddings with t-SNE and Matplotlib
+- Provides an interactive Gradio chat interface connected to an OpenAI model
+
+**Tech Stack**
+- **Model:** GPT-4o-mini
+- **Frameworks:** LangChain, ChromaDB
+- **Libraries:** Hugging Face Datasets, Sentence Transformers, Matplotlib, NumPy, Gradio
+- **Language:** Python
+
+**Purpose**
+Enable retrieval-augmented question answering on quantum computing topics using vector-based search over instruction–output data.
+
+---
