@@ -13,7 +13,7 @@ A curated collection of AI and machine learning projects exploring practical app
 5. [OpenAI vs Ollama Streaming](#5-openai-vs-ollama-streaming)
 6. [Quantum Synthetic Data Generator](#6-quantum-synthetic-data-generator)
 7. [LLM Benchmark: Generating and Explaining Quantum Code](#7-llm-benchmark-generating-and-explaining-quantum-code)
-8. [Retrieval-Augmented Generation (RAG) Chatbot for Quantum Computing](#8-retrieval-augmented-generation-chatbot-for-quantum-computing)
+8. [Retrieval-Augmented Generation (RAG) Chatbot for Quantum Computing](#8-retrieval-augmented-generation-rag-chatbot-for-quantum-computing)
 
 ---
 
