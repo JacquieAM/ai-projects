@@ -14,6 +14,8 @@ A curated collection of AI and machine learning projects exploring practical app
 6. [Quantum Synthetic Data Generator](#6-quantum-synthetic-data-generator)
 7. [LLM Benchmark: Generating and Explaining Quantum Code](#7-llm-benchmark-generating-and-explaining-quantum-code)
 8. [Retrieval-Augmented Generation (RAG) Chatbot for Quantum Computing](#8-retrieval-augmented-generation-rag-chatbot-for-quantum-computing)
+9. [RAG and Fine-Tuning Comparison on a Linux Commands Dataset](#9-rag-and-fine-tuning-comparison-on-a-linux-commands-dataset)
+
 
 ---
 
@@ -186,5 +188,28 @@ This project builds a Retrieval-Augmented Generation (RAG) system integrating La
 
 **Purpose**
 Enable retrieval-augmented question answering on quantum computing topics using vector-based search over instruction–output data.
+
+---
+
+## 9. RAG and Fine-Tuning Comparison on a Linux Commands Dataset
+
+**Project Overview**  
+This project compares Retrieval-Augmented Generation (RAG) and Fine-Tuning approaches using the same dataset of Linux terminal commands. The goal is to evaluate how each method handles missing or incomplete information and to understand the trade-offs between retrieval-based and parameter-based learning.  
+
+**Key Features**  
+- Implements RAG using LangChain and ChromaDB for semantic retrieval  
+- Fine-tunes an OpenAI GPT-4o-mini model on the same dataset  
+- Evaluates both methods with identical queries for fairness  
+- Demonstrates generalization differences when key data is missing  
+- Includes detailed outputs and analysis of both model behaviors  
+
+**Tech Stack**  
+- **Models:** GPT-4o-mini, Fine-tuned GPT-4o-mini  
+- **Frameworks:** LangChain, ChromaDB  
+- **Language:** Python  
+- **Libraries:** OpenAI, Datasets, JSON  
+
+**Purpose**  
+Highlights how RAG and Fine-Tuning differ when trained on the same dataset.  
 
 ---
