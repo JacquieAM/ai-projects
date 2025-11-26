@@ -15,6 +15,8 @@ A curated collection of AI and machine learning projects exploring practical app
 7. [LLM Benchmark: Generating and Explaining Quantum Code](#7-llm-benchmark-generating-and-explaining-quantum-code)
 8. [Retrieval-Augmented Generation (RAG) Chatbot for Quantum Computing](#8-retrieval-augmented-generation-rag-chatbot-for-quantum-computing)
 9. [RAG and Fine-Tuning Comparison on a Linux Commands Dataset](#9-rag-and-fine-tuning-comparison-on-a-linux-commands-dataset)
+10. [RAG Linux Command Assistant + Automated Evaluation](#10-rag-linux-command-assistant--automated-evaluation)
+
 
 
 ---
@@ -212,4 +214,32 @@ This project compares Retrieval-Augmented Generation (RAG) and Fine-Tuning appro
 **Purpose**  
 Highlights how RAG and Fine-Tuning differ when trained on the same dataset.  
 
+---
+
+## 10. RAG Linux Command Assistant + Automated Evaluation
+
+**Project Overview**
+This project is a follow-up to Project 9, now leveraging an open-source model (`llama3.2` via Ollama) and three Linux command datasets: 
+
+- `harpomaxx/unix-commands`  
+- `shikhardadhich/linux_commands`  
+- `mecha-org/linux-command-dataset`  
+
+It builds a Retrieval-Augmented Generation (RAG) chatbot for Linux commands using `PromptTemplate`, which yields more accurate, relevant, and elaborated responses than the previous approach. The project also includes an automated evaluation that scores answers using a flexible keyword-matching algorithm with a configurable threshold, allowing developers to quickly assess RAG performance.
+
+**Key Features**
+- Retrieval-based Linux command assistant across multiple datasets  
+- Structured `PromptTemplate` for precise command + explanation output  
+- Automated evaluation module with pass/fail scoring and customizable keywords  
+- More accurate, relevant, and elaborated responses than previous implementation  
+- Useful for debugging dataset quality, prompt performance, and retriever behavior  
+
+**Tech Stack**
+- **Models:** Ollama, `llama3.2`  
+- **Libraries:** LangChain, Chroma, Python
+- **Environment:** Jupyter Notebook
+
+**Purpose**
+Demonstrates a practical, hands-on approach to improving RAG performance for technical tasks—specifically Linux commands—by combining multiple datasets, prompt engineering, and automated evaluation.  
+  
 ---
